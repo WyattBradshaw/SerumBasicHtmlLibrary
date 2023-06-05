@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #478192;
+}
+table, th, td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+th {
+  background-color: #D9D9D9;
+}

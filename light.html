@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Light Switch</title>
+  </head>
+  <body>
+    <script>
+      function turnOn(){
+        document.getElementById('lightbulb').src='images/pic_bulbon.gif';
+      }
+      function turnOff(){
+        document.getElementById('lightbulb').src='images/pic_bulboff.gif';
+      }
+    </script>
+    <button type="button" onclick="turnOn()">Turn On the Light</button>
+    <img id="lightbulb" src="images/pic_bulboff.gif">
+    <button type="button" onclick="turnOff()">Turn Off the Light</button>
+    <p>Go to the <a href="index.html">home</a> page.</p>
+  </body>
+</html>
